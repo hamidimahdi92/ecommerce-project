@@ -2,3 +2,15 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 20px 40px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.option:hover {
+    background-color: rgba(9,9,9, .05);
+    /* color: whitesmoke; */
+    border-radius: 3px;
+    transition: all 0.2s;
+}
